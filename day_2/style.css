@@ -1,0 +1,20 @@
+body {
+	font-size: 24px;
+	margin: 0;
+}
+span {
+	/*0123456789abcdef*/
+	color: #437E3B; /*задаем цвет*/
+	font-size: 56px;
+}
+body img {
+	max-width: 100%;
+}
+
+#choise-text {
+text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+.wrapper {
+background: pink url('images/background.jpg') no-repeat;
+
+}
