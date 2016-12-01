@@ -1,0 +1,34 @@
+body {
+	font-size: 18px;
+}
+.wrapper {
+	background-color: FFFEF9;
+}
+h1 {
+	font-size: 3.6em;
+	text-align: center;
+	font-family: 'Ruslan Display', cursive;
+	
+}
+h2 {
+	color: #67167F;font-size: 2.4em;
+	text-align: center;
+	font-family: 'Ruslan Display', cursive;
+	color: #67167F;
+}
+h3 {
+	font-size: 2em;
+	text-align: center;
+	font-family: 'Ruslan Display', cursive;
+	color: #2E0440;
+}
+.variant {
+	margin: 60px;
+	padding: 15px;
+	background-color: #AB8CBF;
+}
+
+.base-width {
+	max-width: 800px;
+	margin: 0 auto;
+}

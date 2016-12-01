@@ -3,6 +3,8 @@ body {
 	font-size: 24px;
 	margin: 0;
 }
+
+#temnyi, #svetlyi { width: 440px; }
 span {
 	/*0123456789abcdef*/
 	color: #437E3B; /*задаем цвет*/
@@ -18,13 +20,19 @@ text-shadow: 0 2px 4px rgba(0,0,0,0.5);
 .wrapper {
 background: pink url('images/background.jpg') no-repeat;
 padding: 36px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6a427c+0,e93cec+100 */
+background: #6a427c; /* Old browsers */
+background: -moz-linear-gradient(top,  #6a427c 0%, #e93cec 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #6a427c 0%,#e93cec 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #6a427c 0%,#e93cec 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a427c', endColorstr='#e93cec',GradientType=0 ); /* IE6-9 */
 }
 
 .wrapper a {
 color: red;
 } 
 .wrapper > a {
-	color: purple !important;	
+		
 }
 .PosRel {
 	position: relative;
@@ -45,3 +53,4 @@ color: red;
 	padding: 30px;
 	box-sizing: border-box;
 }
+
