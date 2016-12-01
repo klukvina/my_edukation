@@ -1,6 +1,11 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	font-size: 18px;
 }
+
 .wrapper {
 	background-color: FFFEF9;
 }
@@ -17,18 +22,56 @@ h2 {
 	color: #67167F;
 }
 h3 {
-	font-size: 2em;
+	font-size: 1.6em;
 	text-align: center;
 	font-family: 'Ruslan Display', cursive;
 	color: #2E0440;
 }
+.span {
+	font-size: 1.5em;
+}
 .variant {
-	margin: 60px;
-	padding: 15px;
+	padding: 1em;
 	background-color: #AB8CBF;
+	width: 20em;
 }
 
 .base-width {
 	max-width: 800px;
 	margin: 0 auto;
+}
+
+.varint-container {
+	display: flex;
+	justify-content: space-around;
+}
+.place-banner {
+	padding: 1em;
+	background-color: green;
+	background:  url('http://ratobor.com/wp-content/uploads/sites/5/semero_v_proshlom_place.jpg');
+	background-size: cover;
+	height: 100vh;
+}
+.dop-options {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+.dop-options > div {
+	width: 12em;
+	background: #fefefe;
+}
+
+.banya-banner {
+	background: green;
+}
+
+@media screen and (max-width: 800px) {
+	.varint-container {
+	flex-direction: column;
+	}
+
+	.variant {
+		margin: 0 auto 1.5em;
+	}
 }
