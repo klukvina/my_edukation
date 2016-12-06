@@ -1,77 +1,128 @@
 * {
 	box-sizing: border-box;
-}
-
-body {
 	font-size: 18px;
 }
 
 .wrapper {
 	background-color: FFFEF9;
+	max-width: 100%;
+} 
+.header {
+	position: relative;
+	width: 100%;
 }
+.nav ul {
+  list-style: none; 
+  margin: 0 auto;
+  display: flex;
+   padding: 1em 0;
+  background: #ECDAD6;
+}
+
+nav {
+  width: 100%;
+  margin: 0 auto 30px;
+  background: #123aaa;
+}
+
+ul a {
+  padding: 1em;
+  background: rgba(177, 152, 145, .3);
+  border-right: 1px solid #b19891;
+  color: #695753;
+}
+nav ul a:hover {background: #b19891;}
+nav ul li {
+  margin-right: 2em;
+  display: inline;
+  margin-left: 2em:;
+}
+
+
 h1 {
+	margin-top: 3em;
 	font-size: 3.6em;
 	text-align: center;
-	font-family: 'Ruslan Display', cursive;
-	
+	font-family: 'Ruslan Display', cursive;	
 }
+
 h2 {
-	color: #67167F;font-size: 2.4em;
+	margin-top: 3em;
+	font-size: 2.4em;
 	text-align: center;
 	font-family: 'Ruslan Display', cursive;
-	color: #67167F;
+	color: #4C0A04;
 }
+
 h3 {
 	font-size: 1.6em;
 	text-align: center;
 	font-family: 'Ruslan Display', cursive;
 	color: #2E0440;
 }
-.span {
-	font-size: 1.5em;
-}
+
 .variant {
-	padding: 1em;
+	padding: 10em;
 	background-color: #AB8CBF;
-	width: 20em;
+	width: 100vw;
+	height: 90vh;
+	margin-bottom: 30px;
 }
 
-.base-width {
-	max-width: 800px;
-	margin: 0 auto;
-}
-
-.varint-container {
-	display: flex;
-	justify-content: space-around;
-}
 .place-banner {
 	padding: 1em;
 	background-color: green;
 	background:  url('http://ratobor.com/wp-content/uploads/sites/5/semero_v_proshlom_place.jpg');
 	background-size: cover;
+	background-attachment: fixed;
 	height: 100vh;
 }
 .dop-options {
 	display: flex;
 	justify-content: space-around;
 	flex-direction: row;
+	max-width: 100%;
 }
-.dop-options > div {
-	width: 12em;
-	background: #fefefe;
+
+.options {
+	padding: 30px;
+	text-align: center;
+	background-color: red;
+	margin-bottom: 30px;
+	margin-right: 20px;
+	margin-left: 20px;
 }
 
 .banya-banner {
-	background: green;
+	background:  url('http://ratobor.com/wp-content/uploads/sites/5/semero_v_proshlom_place.jpg');
+	height: 100vh;
+
 }
 
-@media screen and (max-width: 800px) {
-	.varint-container {
-	flex-direction: column;
-	}
+.variant {
+	margin: 0 auto 1.5em;
+}
+.condition {
+	display: block;
+	font-size: 1.2em;
+	position: relative;
 
-	.variant {
-		margin: 0 auto 1.5em;
+}
+
+footer {
+	background: #391663;
+	padding: 3.2em;
+}
+ footer > p {
+	color: white;
+}
+
+.variant {
+	margin: 60px;
+	padding: 40px;
+}
+@media screen and (max-width: 800px) {
+	.dop-options {
+	flex-direction: column;
 	}
 }

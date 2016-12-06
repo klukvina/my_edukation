@@ -1,0 +1,54 @@
+body {
+	font-size: 18px;
+}
+.itemContainer {
+	position: relative;
+	display: inline-block;
+}
+.sale {
+position: absolute;
+background-color: red;
+padding: 1.1em;
+border-radius: 3px;
+top: 70%;
+right: -10%;
+opacity: 0.5;
+z-index: 1;
+}
+.itemImageContainer {
+	overflow: hidden;
+	width: 24em;
+}
+
+.itemImageContainer img {
+	max-width: 100%;
+}
+.carousel {
+	max-width: 30em;
+	margin: 0 auto;}
+
+.carousel .item {
+	height: 17em;
+	position: relative;
+}
+.carousel .item img {
+	max-height: 100%;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%) translate3d(0,0,0);
+}
+.menu {
+	display: flex;
+	list-style: none;
+	font-size: 3em;
+	justify-content: space-around;
+}
+.menu li {
+	box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5)
+
+}
+@media screen and (max-width: 600px) {
+	.menu {
+	flex-direction: column-reverse;
+	}
+}

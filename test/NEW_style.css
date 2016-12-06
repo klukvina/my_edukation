@@ -1,0 +1,262 @@
+* {
+	box-sizing: border-box;
+
+}
+
+body {
+	margin: 0;
+	width: 100%;
+	
+}
+
+body, blockquote cite, blockquote small, .main-navigation a, .menu-toggle, .dropdown-toggle, .social-navigation a, .post-navigation a, .pagination a:hover, .pagination a:focus, .widget-title a, .site-branding .site-title a, .entry-title a, .page-links > .page-links-title, .comment-author, .comment-reply-title small a:hover, .comment-reply-title small a:focus {
+	color: #000000;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1024px; /*максимальная ширина может иметь другое значение*/
+  padding: 6em;
+
+}
+
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block; /*один из способов разместить элементы в строку*/
+  margin-left: 1em;
+
+}
+nav a {
+	color: #FFD462;
+}
+.nav-line {
+	padding: 2em;
+	background: #3F0B1B;
+	width: 100%;
+	position: relative;
+	z-index: 999;
+	top: 0;
+}
+.teaser {
+	position: relative;
+	width: 100%;
+}
+.teaser p {
+	font-size: 1.6em;
+	text-align: center;
+}
+
+.cover {
+	max-width: 57em;
+	position: absolute;
+	top: 30%;
+	left: 20%;
+	z-index: 1;
+}
+
+.cover h1 {
+	color: white;
+}
+
+.cover p {
+	color: white;
+}
+.thumb-wrap {
+  position: relative;
+  padding-bottom: 56.25%; /* задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */
+  height: 0;
+  overflow: hidden;
+  z-index: 0;
+  height: 110vh;
+}
+
+.thumb-wrap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+h1 {
+	font-size: 3em;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+}
+
+h2 {
+	font-size: 2.4em;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+}
+
+.cover h2 {
+	color: white;
+}
+h3 {
+	font-size: 1.4em;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	color: #3F0B1B;
+}
+
+p {
+	font-size: 1.3em;
+	font-family: 'Open Sans', sans-serif;
+}
+
+li span {
+	color: #FFD462;
+}
+
+
+
+.variant h3{
+	font-size: 2.2em;
+	color: #FFD462
+}
+
+.variant {
+	width: 100%;
+	margin-bottom: 3em;
+	padding: 12em;
+}
+.variant p {
+	max-width: 37em;
+	color: #f0f0ee;
+}
+
+.variant h3 {
+	text-align: left;
+}
+
+.variant li {
+    list-style: none;
+	color: #fdebbb;
+}
+.condition {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.4em;
+	text-align: left;
+	max-width: 30em;
+}
+
+.dop-options {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+@media screen and (max-width: 800px) {
+	.dop-options {
+	flex-direction: column;
+	}
+}
+
+.options {
+	margin: 2em;
+	padding: 0.5em;
+	background: #fefef8;
+	display: flex;
+	flex-direction: column;
+}
+
+@media screen and (max-width: 800px) {
+	.options {
+	flex-direction: row;
+	}
+}
+.option p {
+	font-size: 0.8em;
+}
+
+.options img {
+	margin: 0 auto; 
+}
+
+#hutor {
+	width: 100%;
+	min-height: 60vh;
+	padding: 8em;
+	margin-top: 0;
+	background: url(http://ratobor.com/wp-content/uploads/sites/5/hutor.gif);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: right;
+}
+
+#bania {
+	width: 100%;
+	min-height: 60vh;
+	padding: 8em;
+	margin-top: 0;
+	background: url(http://ratobor.com/wp-content/uploads/sites/5/izgotovlenie_decaraciy_ratoborcy-3.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+#what {
+	width: 100%;
+	min-height: 60vh;
+	padding: 8em;
+	margin-top: 0;
+}
+
+#poh {
+	width: 100%;
+	min-height: 60vh;
+	padding: 8em;
+	margin-top: 0;
+	background: url(http://ratobor.com/test/wp-content/uploads/2016/12/pohod2.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+#dr {
+	width: 100%;
+	min-height: 60vh;
+	padding: 8em;
+	margin-top: 0;
+	background: url(http://ratobor.com/test/wp-content/uploads/2016/12/drujinik.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+#str {
+	width: 100%;
+	min-height: 60vh;
+	padding: 8em;
+	margin-top: 0;
+	background: url(http://ratobor.com/test/wp-content/uploads/2016/12/strelec.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+#rem 
+{
+	width: 100%;
+	min-height: 60vh;
+	padding: 8em 8em 8em 40em;
+	margin-top: 0;
+	background: url(http://ratobor.com/test/wp-content/uploads/2016/12/remeslo.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+video {
+	height: 110vh;
+}
