@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Day_9 Scroller</title>
+	<link rel="stylesheet" href="viewScroller.min.css">
+	<link rel="stylesheet" href="styles.css">
+<script src="jquery-3.1.0.min.js"></script>
+
+</head>
+<body>
+<script>
+	$(document).ready(function() {
+	$('.mainbag').viewScroller({});
+});
+</script>
+<div class="mainbag">
+    <div vs-anchor="firstview" class="mainview firstview">View 1</div>
+    <div vs-anchor="secondview" class="mainview secondview">
+        <div class="subbag">
+            <div vs-anchor="firstsubview" class="subview firstsubview">Subview A</div>
+            <div vs-anchor="secondsubview" class="subview secondsubview">Subview B</div>
+            <div vs-anchor="thirdsubview" class="subview thirdsubview">Subview C</div>
+        </div>
+    </div>
+    <div vs-anchor="thirdview" class="mainview thirdview">View 3</div>
+</div>
+
+<script src="jquery.easing.min.js"></script>
+<script src="jquery.mousewheel.min.js"></script>
+	<script src = "viewScroller.min.js"></script>
+</body>
+</html>
